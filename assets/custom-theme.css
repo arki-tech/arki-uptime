@@ -1,0 +1,64 @@
+/* ARKI Purple Theme for Upptime Status Page */
+:root {
+  /* Background and text colors */
+  --body-background-color: #ffffff;
+  --body-text-color: #1a1a1a;
+  
+  /* Primary ARKI purple colors */
+  --nav-background-color: #6A63D9; /* Medium indigo-purple */
+  --nav-border-bottom-color: #5048B3; /* Darker accent purple */
+  --nav-current-border-bottom-color: #5048B3; /* Active nav item */
+  
+  /* Card styling with lighter purple accent */
+  --card-background-color: #ffffff;
+  --card-border-color: #8C7FE8; /* Lighter violet/blue */
+  
+  /* Status indicator colors */
+  --up-border-left-color: #6A63D9; /* Purple for 'Up' status */
+  --down-border-left-color: #dc3545; /* Red for 'Down' status */
+  --degraded-border-left-color: #ffc107; /* Yellow for 'Degraded' status */
+  
+  /* Button and link colors */
+  --button-primary-background-color: #6A63D9;
+  --button-primary-hover-background-color: #5048B3;
+  --link-color: #6A63D9;
+  --link-hover-color: #5048B3;
+  
+  /* Additional accent colors */
+  --border-color: #8C7FE8;
+  --footer-background-color: #f8f9fa;
+  --footer-text-color: #6c757d;
+}
+
+/* Custom gradient header effect */
+.header {
+  background: linear-gradient(135deg, #6A63D9 0%, #8C7FE8 100%);
+}
+
+/* Enhance buttons with ARKI purple theme */
+.btn-primary {
+  background: linear-gradient(135deg, #6A63D9 0%, #8C7FE8 100%);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #5048B3 0%, #6A63D9 100%);
+  transform: translateY(-1px);
+}
+
+/* Status cards with subtle purple accent */
+.status-card {
+  border-left: 4px solid var(--up-border-left-color);
+  box-shadow: 0 2px 8px rgba(106, 99, 217, 0.1);
+}
+
+.status-card.down {
+  border-left-color: var(--down-border-left-color);
+  box-shadow: 0 2px 8px rgba(220, 53, 69, 0.1);
+}
+
+.status-card.degraded {
+  border-left-color: var(--degraded-border-left-color);
+  box-shadow: 0 2px 8px rgba(255, 193, 7, 0.1);
+}
