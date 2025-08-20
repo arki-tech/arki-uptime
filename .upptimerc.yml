@@ -18,6 +18,7 @@ sites:
 # Status website config
 status-website:
   cname: status.getarki.com
+  themeUrl: https://status.getarki.com/assets/custom-theme.css
 
   logoUrl: https://static.wixstatic.com/media/8ae53d_9d2fee1d8a5f42f2ad7d380aef5c2346~mv2.png/v1/fill/w_48,h_46,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ARKI-A-Square-Favicon.png
   favicon: https://status.getarki.com/assets/arki-square-32x32.png
