@@ -9,19 +9,6 @@ sites:
     url: https://api.getarki.com/v1/heartbeat
     headers:
       - "Accept: application/json"
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    check: tcp-ping
-    url: forwardemail.net
-    port: 80
-    ipv6: true
   # Example with secret header:
   # - name: Protected API
   #   url: https://api.example.com/health
