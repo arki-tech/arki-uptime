@@ -34,12 +34,3 @@ status-website:
 
 i18n:
   footer: "ARKI DIGITAL INC."
-
-# Notifications
-notifications:
-  - type: slack
-    webhook-url: $NOTIFICATION_SLACK_WEBHOOK_URL
-    notificationEvents:
-      - down
-      - degraded
-
