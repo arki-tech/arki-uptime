@@ -1,0 +1,79 @@
+:root {
+  /* Background colors */
+  --body-background-color: #0f1419;
+  --card-background-color: #1a2332;
+  --nav-background-color: #1a2332;
+  
+  /* Text colors */
+  --body-text-color: #e6e6e6;
+  --nav-current-border-color: #00d4aa;
+  --nav-link-color: #b3b3b3;
+  --nav-link-hover-color: #00d4aa;
+  
+  /* Border colors */
+  --nav-border-bottom-color: #2d3748;
+  --card-border-color: #2d3748;
+  
+  /* Status colors */
+  --color-up: #00d4aa;
+  --color-down: #ff6b6b;
+  --color-degraded: #ffa726;
+  --color-unknown: #9e9e9e;
+  
+  /* Button and link colors */
+  --button-bg-color: #00d4aa;
+  --button-text-color: #ffffff;
+  --link-color: #00d4aa;
+  --link-hover-color: #00b894;
+  
+  /* Graph colors */
+  --graph-up-color: #00d4aa;
+  --graph-down-color: #ff6b6b;
+  --graph-degraded-color: #ffa726;
+  
+  /* Footer */
+  --footer-bg-color: #1a2332;
+  --footer-text-color: #b3b3b3;
+}
+
+/* Additional custom styling */
+.header {
+  border-bottom: 2px solid var(--nav-border-bottom-color);
+}
+
+.card {
+  border: 1px solid var(--card-border-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.status.up {
+  color: var(--color-up);
+  font-weight: 600;
+}
+
+.status.down {
+  color: var(--color-down);
+  font-weight: 600;
+}
+
+.status.degraded {
+  color: var(--color-degraded);
+  font-weight: 600;
+}
+
+/* Custom ARKI branding accents */
+.navbar-brand {
+  color: var(--nav-link-hover-color) !important;
+}
+
+.btn-primary {
+  background-color: var(--button-bg-color);
+  border-color: var(--button-bg-color);
+  color: var(--button-text-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--link-hover-color);
+  border-color: var(--link-hover-color);
+}
