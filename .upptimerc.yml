@@ -28,7 +28,7 @@ status-website:
       href: /
     - title: ARKI App
       href: https://app.getarki.com
-  themeUrl: https://arki-tech.github.io/arki-uptime/assets/custom-theme.css
+
   footer: "ARKI DIGITAL INC."
 
 # (Optional) schedules, notifications, etc. can go below
