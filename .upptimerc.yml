@@ -18,7 +18,7 @@ sites:
 # Status website config (NO CNAME since you're using github.io/<repo>)
 status-website:
   baseUrl: /arki-uptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://static.wixstatic.com/media/8ae53d_9d2fee1d8a5f42f2ad7d380aef5c2346~mv2.png/v1/fill/w_48,h_46,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ARKI-A-Square-Favicon.png
   name: Arki Status
   introTitle: "**Arki Status** — uptime & response time"
   introMessage: "Powered by Upptime (GitHub Actions, Issues, and Pages)."
