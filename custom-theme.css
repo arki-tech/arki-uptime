@@ -1,22 +1,22 @@
 /* ARKI Purple Theme for Upptime Status Page */
 :root {
-  /* Background and text colors */
-  --body-background-color: #ffffff;
-  --body-text-color: #1a1a1a;
+  /* Beautiful gradient background */
+  --body-background-color: linear-gradient(135deg, #f8f7ff 0%, #f0efff 100%);
+  --body-text-color: #2d2d3a;
   
   /* Primary ARKI purple colors */
-  --nav-background-color: #6A63D9; /* Medium indigo-purple */
-  --nav-border-bottom-color: #5048B3; /* Darker accent purple */
-  --nav-current-border-bottom-color: #5048B3; /* Active nav item */
+  --nav-background-color: linear-gradient(135deg, #6A63D9 0%, #8C7FE8 100%);
+  --nav-border-bottom-color: #5048B3;
+  --nav-current-border-bottom-color: #5048B3;
   
-  /* Card styling with lighter purple accent */
-  --card-background-color: #ffffff;
-  --card-border-color: #8C7FE8; /* Lighter violet/blue */
+  /* Card styling with elegant purple tint */
+  --card-background-color: rgba(255, 255, 255, 0.9);
+  --card-border-color: rgba(140, 127, 232, 0.3);
   
   /* Status indicator colors */
-  --up-border-left-color: #6A63D9; /* Purple for 'Up' status */
-  --down-border-left-color: #dc3545; /* Red for 'Down' status */
-  --degraded-border-left-color: #ffc107; /* Yellow for 'Degraded' status */
+  --up-border-left-color: #6A63D9;
+  --down-border-left-color: #dc3545;
+  --degraded-border-left-color: #ffc107;
   
   /* Button and link colors */
   --button-primary-background-color: #6A63D9;
@@ -25,40 +25,105 @@
   --link-hover-color: #5048B3;
   
   /* Additional accent colors */
-  --border-color: #8C7FE8;
-  --footer-background-color: #f8f9fa;
-  --footer-text-color: #6c757d;
+  --border-color: rgba(140, 127, 232, 0.2);
+  --footer-background-color: rgba(248, 247, 255, 0.8);
+  --footer-text-color: #6c6c80;
 }
 
-/* Custom gradient header effect */
-.header {
-  background: linear-gradient(135deg, #6A63D9 0%, #8C7FE8 100%);
+/* Beautiful gradient page background */
+body {
+  background: linear-gradient(135deg, #f8f7ff 0%, #f0efff 100%);
+  min-height: 100vh;
 }
 
-/* Enhance buttons with ARKI purple theme */
-.btn-primary {
-  background: linear-gradient(135deg, #6A63D9 0%, #8C7FE8 100%);
+/* Stunning navigation with glass effect */
+.navbar, .nav {
+  background: linear-gradient(135deg, #6A63D9 0%, #8C7FE8 100%) !important;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(106, 99, 217, 0.3);
   border: none;
+}
+
+/* Header with gradient overlay */
+.header, .jumbotron {
+  background: linear-gradient(135deg, #6A63D9 0%, #8C7FE8 100%);
+  color: white;
+  border-radius: 0 0 24px 24px;
+  box-shadow: 0 8px 32px rgba(106, 99, 217, 0.3);
+}
+
+/* Glass-morphism status cards */
+.card, .status-card, .live-status {
+  background: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(140, 127, 232, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(106, 99, 217, 0.1);
   transition: all 0.3s ease;
+  margin-bottom: 16px;
 }
 
-.btn-primary:hover {
-  background: linear-gradient(135deg, #5048B3 0%, #6A63D9 100%);
-  transform: translateY(-1px);
+.card:hover, .status-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 48px rgba(106, 99, 217, 0.2);
 }
 
-/* Status cards with subtle purple accent */
+/* Enhanced buttons with ARKI purple theme */
+.btn-primary, .button {
+  background: linear-gradient(135deg, #6A63D9 0%, #8C7FE8 100%) !important;
+  border: none !important;
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(106, 99, 217, 0.3);
+}
+
+.btn-primary:hover, .button:hover {
+  background: linear-gradient(135deg, #5048B3 0%, #6A63D9 100%) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(80, 72, 179, 0.4);
+}
+
+/* Status indicators with beautiful borders */
 .status-card {
-  border-left: 4px solid var(--up-border-left-color);
-  box-shadow: 0 2px 8px rgba(106, 99, 217, 0.1);
+  border-left: 6px solid var(--up-border-left-color) !important;
 }
 
 .status-card.down {
-  border-left-color: var(--down-border-left-color);
-  box-shadow: 0 2px 8px rgba(220, 53, 69, 0.1);
+  border-left: 6px solid var(--down-border-left-color) !important;
 }
 
 .status-card.degraded {
-  border-left-color: var(--degraded-border-left-color);
-  box-shadow: 0 2px 8px rgba(255, 193, 7, 0.1);
+  border-left: 6px solid var(--degraded-border-left-color) !important;
+}
+
+/* Beautiful footer */
+.footer {
+  background: rgba(248, 247, 255, 0.9) !important;
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(140, 127, 232, 0.2);
+  margin-top: 48px;
+}
+
+/* Links with hover effects */
+a {
+  color: #6A63D9 !important;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #5048B3 !important;
+  text-decoration: none;
+}
+
+/* Response time charts with purple accents */
+.chart {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Add some breathing room */
+.container, .container-fluid {
+  padding: 24px;
 }
