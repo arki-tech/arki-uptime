@@ -27,6 +27,7 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+  footer: "ARKI DIGITAL INC."
 
 # (Optional) schedules, notifications, etc. can go below
 # See https://upptime.js.org/docs/configuration
