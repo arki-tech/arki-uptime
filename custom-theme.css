@@ -77,3 +77,8 @@
   background-color: var(--link-hover-color);
   border-color: var(--link-hover-color);
 }
+
+/* Hide Upptime.js.org footer link */
+footer a[href*="upptime.js.org"] {
+  display: none !important;
+}
