@@ -10,8 +10,6 @@ sites:
     maxResponseTime: 5000  # 5 seconds - will trigger "degraded" if slower
     headers:
       - "Accept: application/json"
-  - name: Test error
-    url: https://the-internet.herokuapp.com/status_codes/500   # <-- guaranteed 500
   # Example with secret header:
   # - name: Protected API
   #   url: https://api.example.com/health
