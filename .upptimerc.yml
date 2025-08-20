@@ -7,6 +7,7 @@ user-agent: arki-tech       # optional but recommended
 sites:
   - name: ARKI Uptime
     url: https://api.getarki.com/v1/heartbeat
+    maxResponseTime: 5000  # 5 seconds - will trigger "degraded" if slower
     headers:
       - "Accept: application/json"
   # Example with secret header:
@@ -33,4 +34,12 @@ status-website:
 
 i18n:
   footer: "ARKI DIGITAL INC."
+
+# Notifications
+notifications:
+  - type: slack
+    webhook-url: $NOTIFICATION_SLACK_WEBHOOK_URL
+    notificationEvents:
+      - down
+      - degraded
 
