@@ -15,18 +15,17 @@ sites:
   #   headers:
   #     - "Authorization: Bearer $API_TOKEN"   # add API_TOKEN in repo Secrets
 
-# Status website config (NO CNAME since you're using github.io/<repo>)
+# Status website config
 status-website:
   baseUrl: /arki-uptime
   logoUrl: https://static.wixstatic.com/media/8ae53d_9d2fee1d8a5f42f2ad7d380aef5c2346~mv2.png/v1/fill/w_48,h_46,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ARKI-A-Square-Favicon.png
+  favicon: /arki-uptime/assets/arki-square-32x32.png
   name: Arki Status
   introTitle: "**Arki Status** — uptime & response time"
   introMessage: "ARKI Platform Status"
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
   footer: "ARKI DIGITAL INC."
 
 # (Optional) schedules, notifications, etc. can go below
