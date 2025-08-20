@@ -18,10 +18,10 @@ sites:
 # Status website config
 status-website:
   cname: status.getarki.com
-  themeUrl: https://arki-tech.github.io/arki-uptime/assets/custom-theme.css
+  themeUrl: https://status.getarki.com/assets/custom-theme.css
 
   logoUrl: https://static.wixstatic.com/media/8ae53d_9d2fee1d8a5f42f2ad7d380aef5c2346~mv2.png/v1/fill/w_48,h_46,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ARKI-A-Square-Favicon.png
-  favicon: https://arki-tech.github.io/arki-uptime/assets/arki-square-32x32.png
+  favicon: https://status.getarki.com/assets/arki-square-32x32.png
   name: ARKI Status
   introTitle: "**ARKI Status** — uptime & response time"
   introMessage: "ARKI Platform Status"
