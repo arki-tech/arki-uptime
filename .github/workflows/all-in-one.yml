@@ -3,13 +3,18 @@ name: All-in-One (Run Setup CI)
 on:
   workflow_dispatch: {}
 
+permissions:
+  actions: write
+  contents: read
+
 jobs:
   trigger-setup-ci:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Setup CI
-        uses: peter-evans/workflow-dispatch@v2
+        uses: peter-evans/workflow-dispatch@v1
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: arki-tech/arki-uptime
           workflow: setup.yml
           ref: master
-          token: ${{ github.token }}
