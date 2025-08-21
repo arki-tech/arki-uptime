@@ -3,18 +3,15 @@ name: All-in-One (Run Setup CI)
 on:
   workflow_dispatch: {}
 
-permissions:
-  actions: write
-  contents: read
-
 jobs:
   trigger-setup-ci:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Trigger Setup CI
-        uses: peter-evans/workflow-dispatch@v1
+      - name: Repository Dispatch to self
+        uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          repository: arki-tech/arki-uptime
-          workflow: setup.yml
-          ref: master
+          event-type: run-setup-ci
+          client-payload: '{"ref": "master"}'
