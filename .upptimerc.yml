@@ -35,6 +35,5 @@ status-website:
 i18n:
   footer: "ARKI DIGITAL INC."
 
-# Check frequency
 workflowSchedule:
-  uptime: "*/2 * * * *"  # Check every 2 minutes
+  uptime: "*/5 * * * *"
