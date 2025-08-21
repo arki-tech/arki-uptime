@@ -1,0 +1,15 @@
+name: All-in-One (Run Setup CI)
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  trigger-setup-ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Setup CI
+        uses: peter-evans/workflow-dispatch@v2
+        with:
+          workflow: setup.yml
+          ref: master
+          token: ${{ github.token }}
