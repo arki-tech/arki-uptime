@@ -5,7 +5,7 @@ user-agent: arki-tech       # optional but recommended
 
 # Monitors (edit these)
 sites:
-  - name: ARKI Uptime
+  - name: ARKI Web
     url: https://api.getarki.com/v1/heartbeat
     maxResponseTime: 5000  # 5 seconds - will trigger "degraded" if slower
     headers:
