@@ -1,22 +1,20 @@
 [
   {
-    "name": "ARKI Uptime",
+    "name": "ARKI Web",
     "url": "https://api.getarki.com/v1/heartbeat",
     "icon": "https://icons.duckduckgo.com/ip3/api.getarki.com.ico",
-    "slug": "arki-uptime",
+    "slug": "arki-web",
     "status": "up",
-    "uptime": "99.56%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.56%",
-    "uptimeMonth": "99.56%",
-    "uptimeYear": "99.56%",
-    "time": 247,
-    "timeDay": 229,
-    "timeWeek": 247,
-    "timeMonth": 247,
-    "timeYear": 247,
-    "dailyMinutesDown": {
-      "2025-08-21": 16
-    }
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 141,
+    "timeDay": 141,
+    "timeWeek": 141,
+    "timeMonth": 141,
+    "timeYear": 141,
+    "dailyMinutesDown": {}
   }
 ]
