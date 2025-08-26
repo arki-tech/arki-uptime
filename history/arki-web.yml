@@ -1,7 +1,7 @@
 url: https://api.getarki.com/v1/heartbeat
-status: down
-code: 500
-responseTime: 271
-lastUpdated: 2025-08-26T06:56:11.326Z
+status: up
+code: 200
+responseTime: 63
+lastUpdated: 2025-08-26T07:00:19.381Z
 startTime: 2025-08-22T17:33:41.264Z
 generator: Upptime <https://github.com/upptime/upptime>
