@@ -15,6 +15,11 @@
 
 
 name: Uptime CI
+permissions:
+  contents: write
+  actions: write
+  issues: write
+  pull-requests: write
 on:
   schedule:
     - cron: "*/5 * * * *"
