@@ -4,19 +4,19 @@
     "url": "https://api.getarki.com/v1/heartbeat",
     "icon": "https://icons.duckduckgo.com/ip3/api.getarki.com.ico",
     "slug": "arki-web",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.72%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 236,
     "timeDay": 210,
     "timeWeek": 218,
     "timeMonth": 236,
     "timeYear": 236,
     "dailyMinutesDown": {
-      "2025-09-26": 0
+      "2025-09-26": 4
     }
   }
 ]
