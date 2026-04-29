@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.getarki.com.ico",
     "slug": "arki-web",
     "status": "up",
-    "uptime": "99.83%",
-    "uptimeDay": "59.82%",
-    "uptimeWeek": "94.26%",
-    "uptimeMonth": "98.68%",
-    "uptimeYear": "99.83%",
+    "uptime": "99.82%",
+    "uptimeDay": "58.43%",
+    "uptimeWeek": "94.06%",
+    "uptimeMonth": "98.63%",
+    "uptimeYear": "99.82%",
     "time": 230,
     "timeDay": 215,
     "timeWeek": 217,
     "timeMonth": 224,
     "timeYear": 230,
     "dailyMinutesDown": {
-      "2026-04-29": 579,
+      "2026-04-29": 599,
       "2025-11-07": 48
     }
   }
