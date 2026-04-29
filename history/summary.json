@@ -6,9 +6,9 @@
     "slug": "arki-web",
     "status": "up",
     "uptime": "99.77%",
-    "uptimeDay": "46.62%",
-    "uptimeWeek": "92.37%",
-    "uptimeMonth": "98.25%",
+    "uptimeDay": "45.93%",
+    "uptimeWeek": "92.28%",
+    "uptimeMonth": "98.22%",
     "uptimeYear": "99.77%",
     "time": 230,
     "timeDay": 216,
@@ -16,7 +16,7 @@
     "timeMonth": 224,
     "timeYear": 230,
     "dailyMinutesDown": {
-      "2026-04-29": 769,
+      "2026-04-29": 779,
       "2025-11-07": 48
     }
   }
